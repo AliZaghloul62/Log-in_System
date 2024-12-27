@@ -1,0 +1,49 @@
+
+
+body{
+    background-color: #24353f;
+}
+
+.container{
+    background-color: #24353f;
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+    text-align: center;
+    width: 52%;
+}
+
+.container .title{
+    font-family: "Titillium Web", sans-serif serif;
+    font-size: 40px ;
+    font-weight: 500 ;
+    color: #17a2b8;;
+    text-align: center;
+}
+
+input.form-control{
+    background-color: #24353f;
+    color: white !important;
+    align-self: center;
+}
+
+input.form-control:focus{
+    background-color: #24353f;
+    box-shadow: none;
+}
+
+::placeholder {
+    color: grey !important;
+}
+
+nav{
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+    display: flex !important;
+    justify-content:space-around !important;
+}
+
+#logout{
+    transition: .5s ease;
+}
+
+#logout:hover{
+    background-color: #FFC107;
+}
